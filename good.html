@@ -11,8 +11,8 @@
 		<header>
 			<div class="header-top">
 				<div class="header-top-left">
-					<a href="login.html" style="color: red;">注册有礼</a>
-					<a href="register.html">登录</a>
+					<a id="myAccount" href="login.html" style="color: red;">注册有礼</a>
+					<a id="myName" href="register.html">登录</a>
 					<a href="#" style="background: none;">收藏</a>
 				</div>	
 				<div class="header-top-right">
@@ -34,9 +34,9 @@
 			</div>
 			<nav class="header-bottom">
 				<div class="header-bottom-left">
-					<a href="index.html" style="color:red;">首页</a>
+					<a href="index.html">首页</a>
 					<a href="detail.html">女士</a>
-					<a href="detail.html">男士</a>
+					<a href="detail.html" style="color:red;">男士</a>
 					<a href="detail.html">美妆</a>
 					<a href="detail.html">家居</a>
 					<a href="detail.html">婴童</a>
@@ -234,10 +234,10 @@
         		</div>
         	</div>
            <!--goods-->
-           <div class="good-content-list">
-           	     <div class="productList">
+            <div class="good-content-list">
+           	    <div class="productList">
            	     	<div class="productList-img">
-	           	     		<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
+	           	     	<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
 	           	     	<div class="productList-type">
 		           	     	<div class="productList-size">
 		           	     		<ul class="size">
@@ -252,62 +252,34 @@
 			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
 			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
 		           	     		</ul>
-		           	     		<ul class="size-infro">
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>180/100A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>180/100A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>175/92A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>170/88A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>165/84A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     		</ul>
 		           	     	</div>
-		           	     	<div style="display: none;" class="productList-size">
-		           	     		<ul class="size">
-		           	     			<li>XXS</li>
-			           	     		<li>XS</li>
-			           	     		<li>L</li>
-			           	     		<li>M</li>
-			           	     		<li>S</li>
-		           	     		</ul>	
-		           	     		<ul class="size-img">
-		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
-		           	     		</ul>
-		           	     	</div>
-		           	     	<div style="display: none;" class="productList-size">
-		           	     		<ul class="size">
-		           	     			<li>XXS</li>
-			           	     		<li>XS</li>
-			           	     		<li>L</li>
-			           	     		<li>M</li>
-			           	     		<li>S</li>
-		           	     		</ul>	
-		           	     		<ul class="size-img">
-		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
-		           	     		</ul>
-		           	     	</div>
+		           	     	<ul class="size-infro">
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>175/92A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>170/88A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>165/84A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+		           	     	</ul>
 	           	     	</div>
 	           	    </div>
            	     	<div class="productList-infro">
@@ -315,11 +287,10 @@
            	     		<p>酒红色高领拉链男士开衫</p>
            	     		<p><span>￥1,199</span><span>￥4,980</span></p>
            	     	</div>
-           	     	
-           	     </div>
-           	     <div class="productList">
+           	    </div>
+           	    <div class="productList">
            	     	<div class="productList-img">
-	           	     		<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
+	           	     	<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
 	           	     	<div class="productList-type">
 		           	     	<div class="productList-size">
 		           	     		<ul class="size">
@@ -334,62 +305,34 @@
 			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
 			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
 		           	     		</ul>
-		           	     		<ul class="size-infro">
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>180/100A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>180/100A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>175/92A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>170/88A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>165/84A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     		</ul>
 		           	     	</div>
-		           	     	<div style="display: none;" class="productList-size">
-		           	     		<ul class="size">
-		           	     			<li>XXS</li>
-			           	     		<li>XS</li>
-			           	     		<li>L</li>
-			           	     		<li>M</li>
-			           	     		<li>S</li>
-		           	     		</ul>	
-		           	     		<ul class="size-img">
-		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
-		           	     		</ul>
-		           	     	</div>
-		           	     	<div style="display: none;" class="productList-size">
-		           	     		<ul class="size">
-		           	     			<li>XXS</li>
-			           	     		<li>XS</li>
-			           	     		<li>L</li>
-			           	     		<li>M</li>
-			           	     		<li>S</li>
-		           	     		</ul>	
-		           	     		<ul class="size-img">
-		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
-		           	     		</ul>
-		           	     	</div>
+		           	     	<ul class="size-infro">
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>175/92A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>170/88A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>165/84A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     		</ul>
 	           	     	</div>
 	           	    </div>
            	     	<div class="productList-infro">
@@ -397,10 +340,10 @@
            	     		<p>酒红色高领拉链男士开衫</p>
            	     		<p><span>￥1,199</span><span>￥4,980</span></p>
            	     	</div>
-           	     </div>
-           	     <div class="productList">
+           	    </div>
+           	    <div class="productList">
            	     	<div class="productList-img">
-	           	     		<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
+	           	     	<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
 	           	     	<div class="productList-type">
 		           	     	<div class="productList-size">
 		           	     		<ul class="size">
@@ -415,62 +358,34 @@
 			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
 			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
 		           	     		</ul>
-		           	     		<ul class="size-infro">
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>180/100A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>180/100A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>175/92A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>170/88A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>165/84A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     		</ul>
 		           	     	</div>
-		           	     	<div style="display: none;" class="productList-size">
-		           	     		<ul class="size">
-		           	     			<li>XXS</li>
-			           	     		<li>XS</li>
-			           	     		<li>L</li>
-			           	     		<li>M</li>
-			           	     		<li>S</li>
-		           	     		</ul>	
-		           	     		<ul class="size-img">
-		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
-		           	     		</ul>
-		           	     	</div>
-		           	     	<div style="display: none;" class="productList-size">
-		           	     		<ul class="size">
-		           	     			<li>XXS</li>
-			           	     		<li>XS</li>
-			           	     		<li>L</li>
-			           	     		<li>M</li>
-			           	     		<li>S</li>
-		           	     		</ul>	
-		           	     		<ul class="size-img">
-		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
-		           	     		</ul>
-		           	     	</div>
+		           	     	<ul class="size-infro">
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>175/92A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>170/88A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>165/84A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     		</ul>
 	           	     	</div>
 	           	    </div>
            	     	<div class="productList-infro">
@@ -478,11 +393,10 @@
            	     		<p>酒红色高领拉链男士开衫</p>
            	     		<p><span>￥1,199</span><span>￥4,980</span></p>
            	     	</div>
-           	     	
-           	     </div>
-           	     <div class="productList">
+           	    </div>
+                <div class="productList">
            	     	<div class="productList-img">
-	           	     		<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
+	           	     	<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
 	           	     	<div class="productList-type">
 		           	     	<div class="productList-size">
 		           	     		<ul class="size">
@@ -497,62 +411,34 @@
 			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
 			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
 		           	     		</ul>
-		           	     		<ul class="size-infro">
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>180/100A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>180/100A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>175/92A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>170/88A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>165/84A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     		</ul>
 		           	     	</div>
-		           	     	<div style="display: none;" class="productList-size">
-		           	     		<ul class="size">
-		           	     			<li>XXS</li>
-			           	     		<li>XS</li>
-			           	     		<li>L</li>
-			           	     		<li>M</li>
-			           	     		<li>S</li>
-		           	     		</ul>	
-		           	     		<ul class="size-img">
-		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
-		           	     		</ul>
-		           	     	</div>
-		           	     	<div style="display: none;" class="productList-size">
-		           	     		<ul class="size">
-		           	     			<li>XXS</li>
-			           	     		<li>XS</li>
-			           	     		<li>L</li>
-			           	     		<li>M</li>
-			           	     		<li>S</li>
-		           	     		</ul>	
-		           	     		<ul class="size-img">
-		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
-		           	     		</ul>
-		           	     	</div>
+		           	     	<ul class="size-infro">
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>175/92A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>170/88A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>165/84A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     		</ul>
 	           	     	</div>
 	           	    </div>
            	     	<div class="productList-infro">
@@ -560,11 +446,10 @@
            	     		<p>酒红色高领拉链男士开衫</p>
            	     		<p><span>￥1,199</span><span>￥4,980</span></p>
            	     	</div>
-           	     	
-           	     </div>
-           	     <div class="productList">
+           	    </div>
+           	    <div class="productList">
            	     	<div class="productList-img">
-	           	     		<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
+	           	     	<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
 	           	     	<div class="productList-type">
 		           	     	<div class="productList-size">
 		           	     		<ul class="size">
@@ -579,62 +464,34 @@
 			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
 			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
 		           	     		</ul>
-		           	     		<ul class="size-infro">
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>180/100A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>180/100A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>175/92A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>170/88A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     			<li>
-			           	     			<h3>规格/型号</h3>
-			           	     			<p>165/84A</p>
-			           	     			<p>【详情参考尺寸测量信息】</p>
-		           	     			</li>
-		           	     		</ul>
 		           	     	</div>
-		           	     	<div style="display: none;" class="productList-size">
-		           	     		<ul class="size">
-		           	     			<li>XXS</li>
-			           	     		<li>XS</li>
-			           	     		<li>L</li>
-			           	     		<li>M</li>
-			           	     		<li>S</li>
-		           	     		</ul>	
-		           	     		<ul class="size-img">
-		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
-		           	     		</ul>
-		           	     	</div>
-		           	     	<div style="display: none;" class="productList-size">
-		           	     		<ul class="size">
-		           	     			<li>XXS</li>
-			           	     		<li>XS</li>
-			           	     		<li>L</li>
-			           	     		<li>M</li>
-			           	     		<li>S</li>
-		           	     		</ul>	
-		           	     		<ul class="size-img">
-		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
-			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
-		           	     		</ul>
-		           	     	</div>
+		           	     	<ul class="size-infro">
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>175/92A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>170/88A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>165/84A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     		</ul>
 	           	     	</div>
 	           	    </div>
            	     	<div class="productList-infro">
@@ -642,8 +499,167 @@
            	     		<p>酒红色高领拉链男士开衫</p>
            	     		<p><span>￥1,199</span><span>￥4,980</span></p>
            	     	</div>
-           	     </div>
-           </div>
+           	    </div>
+                <div class="productList">
+           	     	<div class="productList-img">
+	           	     	<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
+	           	     	<div class="productList-type">
+		           	     	<div class="productList-size">
+		           	     		<ul class="size">
+		           	     			<li>XXS</li>
+			           	     		<li>XS</li>
+			           	     		<li>L</li>
+			           	     		<li>M</li>
+			           	     		<li>S</li>
+		           	     		</ul>	
+		           	     		<ul class="size-img">
+		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
+			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
+			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
+		           	     		</ul>
+		           	     	</div>
+		           	     	<ul class="size-infro">
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>175/92A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>170/88A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>165/84A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+		           	     	</ul>
+	           	     	</div>
+	           	    </div>
+           	     	<div class="productList-infro">
+           	     		<p>M&E</p>
+           	     		<p>酒红色高领拉链男士开衫</p>
+           	     		<p><span>￥1,199</span><span>￥4,980</span></p>
+           	     	</div>
+           	    </div>
+           	    <div class="productList">
+           	     	<div class="productList-img">
+	           	     	<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
+	           	     	<div class="productList-type">
+		           	     	<div class="productList-size">
+		           	     		<ul class="size">
+		           	     			<li>XXS</li>
+			           	     		<li>XS</li>
+			           	     		<li>L</li>
+			           	     		<li>M</li>
+			           	     		<li>S</li>
+		           	     		</ul>	
+		           	     		<ul class="size-img">
+		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
+			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
+			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
+		           	     		</ul>
+		           	     	</div>
+		           	     	<ul class="size-infro">
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>175/92A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>170/88A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>165/84A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+		           	     	</ul>
+	           	     	</div>
+	           	    </div>
+           	     	<div class="productList-infro">
+           	     		<p>M&E</p>
+           	     		<p>酒红色高领拉链男士开衫</p>
+           	     		<p><span>￥1,199</span><span>￥4,980</span></p>
+           	     	</div>
+           	    </div>
+           	    <div class="productList">
+           	     	<div class="productList-img">
+	           	     	<a href="#"><img src="img/MSJ-215-00230a (2).jpg" title="蓝色简约圆领短袖T恤"/></a>
+	           	     	<div class="productList-type">
+		           	     	<div class="productList-size">
+		           	     		<ul class="size">
+		           	     			<li>XXS</li>
+			           	     		<li>XS</li>
+			           	     		<li>L</li>
+			           	     		<li>M</li>
+			           	     		<li>S</li>
+		           	     		</ul>	
+		           	     		<ul class="size-img">
+		           	     			<li><img src="img/MSJ-215-00230a.jpg" title="酒红色高领拉链男士开衫"></li>
+			           	     		<li><img src="img/MSJ-215-00230b.jpg" title="酒红色高领拉链男士开衫"></li>
+			           	     		<li><img src="img/MSJ-215-00230c.jpg" title="酒红色高领拉链男士开衫"></li>
+		           	     		</ul>
+		           	     	</div>
+		           	     	<ul class="size-infro">
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>180/100A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>175/92A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>170/88A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+	           	     			<li>
+		           	     			<h3>规格/型号</h3>
+		           	     			<p>165/84A</p>
+		           	     			<p>【详情参考尺寸测量信息】</p>
+	           	     			</li>
+		           	     	</ul>
+	           	     	</div>
+	           	    </div>
+           	     	<div class="productList-infro">
+           	     		<p>M&E</p>
+           	     		<p>酒红色高领拉链男士开衫</p>
+           	     		<p><span>￥1,199</span><span>￥4,980</span></p>
+           	     	</div>
+           	    </div>
+            </div>
         </section>
 
       <!--footer-->
@@ -677,45 +693,6 @@
 </html>
 <script type="text/javascript" src="js/tools.js" ></script>
 <script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
-<script type="text/javascript">
-$(function(){
-	  //给导航栏的所属信息定位
-	 $(".header-nav").css("position","absolute");
-	  var left = 300;
-	 for(var i=0;i<$(".header-nav").length;i++){
-	 	$(".header-nav")[i].style.left = left+"px";
-	 	left += 87;
-	 }
-	 //滑过导航时显示其所属信息
-	 $(".header-bottom-left>a").hover(
-	 	function(){
-	 	 $(this).css({"color":"red"});
-	 	 let index = $(this).index();
-	 	 $($(".header-nav")[index-1]).toggle();
-	  });
-	 });
-	 
-	 //滑过商品时让其对应的的商品规格显示
-	  $(".productList>.productList-img").hover(
-	  	function(){
-	  	 	let index = $(this).index();
-	  	 	$($(".productList-size")[index]).toggle();
-	  	 	$(".productList-infro").toggle();
-	  });
-	 //给尺寸的信息栏定位
-	  var left = -70;
-	 for(var i=0;i<$(".size-infro>li").length;i++){
-	 	$(".size-infro>li")[i].style.left = left+"px";
-	 	left += 55;
-	 }
-	 //滑过商品型号显示信息描述
-	  $(".size>li").hover(function(){
-	  	 let index = $(this).index();
-	  	 $($(".size-infro>li")[index]).toggle();
-	  });
-	  //滑过商品种类，让其显示在放置商品放大效果的位置
-	  $(".size-img>li>img").mouseover(function(){
-	  	let src = $(this).attr("src");
-	  	$(".productList-img>a>img").attr("src",src);
-	  });
-</script>
+<script type="text/javascript" src="js/cookieTools.js" ></script>
+<script type="text/javascript" src="js/public.js" ></script>
+<script type="text/javascript" src="js/good.js" ></script>
